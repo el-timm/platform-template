@@ -1,6 +1,6 @@
 # Project Information
 
-Project Currently uses [ScotchBox](https://box.scotch.io/), which is a pre-built VM with all the LAMP* stuff you'll ever want. 
+Project Currently uses [ScotchBox](https://box.scotch.io/), which is a pre-built VM with all the LAMP* stuff you'll ever want.   We did shut down apache in favor of nginx, however. 
 
 For building the project, we rely on:
 
