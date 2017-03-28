@@ -43,3 +43,7 @@ gulp build
 Access the local project website at:  
 http://platform.local.com/
 
+
+## Generated Files
+* /dist : files that are ready to package (minified, cscc compiled, etc)
+* /serve : same files as in /dist except are behind the testing webserver for immediate feedback

@@ -3833,7 +3833,7 @@ body.sidebar-overlay .sidebar .sidebar-content {
         background-color: #232323;
         text-decoration: none;
         box-shadow: 0px -1px 0px 0px #212121 inset, 0px 1px 0px 0px #212121 inset;
-        box-shadow: 3px 0 0 0 #2c97de inset, 0px -1px 0px 0px #1A1A1A inset, 0px 1px 0px 0px transparent inset; }
+        box-shadow: 3px 0 0 0 #00ce76 inset, 0px -1px 0px 0px #1A1A1A inset, 0px 1px 0px 0px transparent inset; }
         .navigation .sidebar ul.side-menu > li.active > a > i:first-child {
           color: white; }
       .navigation .sidebar ul.side-menu > li.nested-active:not(.expanded) > a {
@@ -3841,7 +3841,7 @@ body.sidebar-overlay .sidebar .sidebar-content {
         background-color: #232323;
         text-decoration: none;
         box-shadow: 0px -1px 0px 0px #212121 inset, 0px 1px 0px 0px #212121 inset;
-        box-shadow: 3px 0 0 0 #2c97de inset, 0px -1px 0px 0px #1A1A1A inset, 0px 1px 0px 0px transparent inset; }
+        box-shadow: 3px 0 0 0 #00ce76 inset, 0px -1px 0px 0px #1A1A1A inset, 0px 1px 0px 0px transparent inset; }
         .navigation .sidebar ul.side-menu > li.nested-active:not(.expanded) > a > i:first-child {
           color: white; }
 
@@ -3860,13 +3860,13 @@ body.sidebar-overlay .sidebar .sidebar-content {
     background-color: #232323;
     text-decoration: none;
     box-shadow: 0px -1px 0px 0px #212121 inset, 0px 1px 0px 0px #212121 inset;
-    box-shadow: -3px 0 0 0 #2c97de inset, 0px -1px 0px 0px #212121 inset, 0px 1px 0px 0px #212121 inset; }
+    box-shadow: -3px 0 0 0 #00ce76 inset, 0px -1px 0px 0px #212121 inset, 0px 1px 0px 0px #212121 inset; }
   .rtl .navigation .sidebar ul.side-menu > li.nested-active:not(.expanded) > a {
     color: white;
     background-color: #232323;
     text-decoration: none;
     box-shadow: 0px -1px 0px 0px #212121 inset, 0px 1px 0px 0px #212121 inset;
-    box-shadow: -3px 0 0 0 #2c97de inset, 0px -1px 0px 0px #212121 inset, 0px 1px 0px 0px #212121 inset; }
+    box-shadow: -3px 0 0 0 #00ce76 inset, 0px -1px 0px 0px #212121 inset, 0px 1px 0px 0px #212121 inset; }
 
 .rtl .navigation .sidebar .pull-right {
   float: left !important; }
@@ -3916,7 +3916,7 @@ body.sidebar-overlay .sidebar .sidebar-content {
       background-color: #232323;
       text-decoration: none;
       box-shadow: 0px -1px 0px 0px #212121 inset, 0px 1px 0px 0px #212121 inset;
-      box-shadow: 3px 0 0 0 #2c97de inset, 0px -1px 0px 0px #1A1A1A inset, 0px 1px 0px 0px transparent inset; }
+      box-shadow: 3px 0 0 0 #00ce76 inset, 0px -1px 0px 0px #1A1A1A inset, 0px 1px 0px 0px transparent inset; }
     .navigation .sidebar ul.side-menu li ul li a {
       position: relative;
       display: block;
@@ -3939,7 +3939,7 @@ body.sidebar-overlay .sidebar .sidebar-content {
       background-color: #232323;
       text-decoration: none;
       box-shadow: 0px -1px 0px 0px #212121 inset, 0px 1px 0px 0px #212121 inset;
-      box-shadow: 3px 0 0 0 #2c97de inset, 0px -1px 0px 0px #1A1A1A inset, 0px 1px 0px 0px transparent inset; }
+      box-shadow: 3px 0 0 0 #00ce76 inset, 0px -1px 0px 0px #1A1A1A inset, 0px 1px 0px 0px transparent inset; }
     .navigation .sidebar ul.side-menu li ul.velocity-animating {
       display: block; }
   .navigation .sidebar ul.side-menu li.expanded > ul {
@@ -3970,14 +3970,14 @@ body.sidebar-overlay .sidebar .sidebar-content {
   background-color: #232323;
   text-decoration: none;
   box-shadow: 0px -1px 0px 0px #212121 inset, 0px 1px 0px 0px #212121 inset;
-  box-shadow: -3px 0 0 0 #2c97de inset, 0px -1px 0px 0px #212121 inset, 0px 1px 0px 0px #212121 inset; }
+  box-shadow: -3px 0 0 0 #00ce76 inset, 0px -1px 0px 0px #212121 inset, 0px 1px 0px 0px #212121 inset; }
 
 .rtl .navigation .sidebar ul.side-menu li ul li.nested-active:not(.expanded) > a {
   color: white;
   background-color: #232323;
   text-decoration: none;
   box-shadow: 0px -1px 0px 0px #212121 inset, 0px 1px 0px 0px #212121 inset;
-  box-shadow: -3px 0 0 0 #2c97de inset, 0px -1px 0px 0px #212121 inset, 0px 1px 0px 0px #212121 inset; }
+  box-shadow: -3px 0 0 0 #00ce76 inset, 0px -1px 0px 0px #212121 inset, 0px 1px 0px 0px #212121 inset; }
 
 body:not(.rtl) .navigation .sidebar ul.side-menu > li ul.submenu-level-1 > li > a {
   padding-left: 59px; }

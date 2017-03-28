@@ -2666,14 +2666,14 @@ body.sidebar-overlay .sidebar .sidebar-content{max-height:calc(100% - 50px);posi
 .navigation .sidebar ul.side-menu>li>a:hover{color:#fff;background-color:#232323;text-decoration:none;box-shadow:0 -1px 0 0 #1A1A1A inset,0 1px 0 0 transparent inset}
 .navigation .sidebar ul.side-menu>li>a:hover>i:first-child{color:#fff}
 .navigation .sidebar ul.side-menu>li>a:active,.navigation .sidebar ul.side-menu>li>a:focus{text-decoration:none}
-.navigation .sidebar ul.side-menu>li.active>a{color:#fff;background-color:#232323;text-decoration:none;box-shadow:0 -1px 0 0 #212121 inset,0 1px 0 0 #212121 inset;box-shadow:3px 0 0 0 #2c97de inset,0 -1px 0 0 #1A1A1A inset,0 1px 0 0 transparent inset}
+.navigation .sidebar ul.side-menu>li.active>a{color:#fff;background-color:#232323;text-decoration:none;box-shadow:0 -1px 0 0 #212121 inset,0 1px 0 0 #212121 inset;box-shadow:3px 0 0 0 #00ce76 inset,0 -1px 0 0 #1A1A1A inset,0 1px 0 0 transparent inset}
 .navigation .sidebar ul.side-menu>li.active>a>i:first-child{color:#fff}
-.navigation .sidebar ul.side-menu>li.nested-active:not(.expanded)>a{color:#fff;background-color:#232323;text-decoration:none;box-shadow:0 -1px 0 0 #212121 inset,0 1px 0 0 #212121 inset;box-shadow:3px 0 0 0 #2c97de inset,0 -1px 0 0 #1A1A1A inset,0 1px 0 0 transparent inset}
+.navigation .sidebar ul.side-menu>li.nested-active:not(.expanded)>a{color:#fff;background-color:#232323;text-decoration:none;box-shadow:0 -1px 0 0 #212121 inset,0 1px 0 0 #212121 inset;box-shadow:3px 0 0 0 #00ce76 inset,0 -1px 0 0 #1A1A1A inset,0 1px 0 0 transparent inset}
 .navigation .sidebar ul.side-menu>li.nested-active:not(.expanded)>a>i:first-child{color:#fff}
 .rtl .navigation .sidebar ul.side-menu>li{border-right:none;border-left:1px solid #212121}
 .rtl .navigation .sidebar ul.side-menu>li>a{direction:rtl;text-align:right;padding:15px 20px 15px 25px}
 .rtl .navigation .sidebar ul.side-menu>li>a i:first-child{margin-right:0;margin-left:4px}
-.rtl .navigation .sidebar ul.side-menu>li.active>a,.rtl .navigation .sidebar ul.side-menu>li.nested-active:not(.expanded)>a{color:#fff;background-color:#232323;text-decoration:none;box-shadow:0 -1px 0 0 #212121 inset,0 1px 0 0 #212121 inset;box-shadow:-3px 0 0 0 #2c97de inset,0 -1px 0 0 #212121 inset,0 1px 0 0 #212121 inset}
+.rtl .navigation .sidebar ul.side-menu>li.active>a,.rtl .navigation .sidebar ul.side-menu>li.nested-active:not(.expanded)>a{color:#fff;background-color:#232323;text-decoration:none;box-shadow:0 -1px 0 0 #212121 inset,0 1px 0 0 #212121 inset;box-shadow:-3px 0 0 0 #00ce76 inset,0 -1px 0 0 #212121 inset,0 1px 0 0 #212121 inset}
 .rtl .navigation .sidebar .pull-right{float:left!important}
 .sidebar-big-icons .navigation .sidebar ul.side-menu>li>a{text-align:center;padding-top:20px;padding-bottom:20px}
 .sidebar-big-icons .navigation .sidebar ul.side-menu>li>a>:not(:first-child):not(.nav-label){display:none}
@@ -2683,12 +2683,12 @@ body.sidebar-overlay .sidebar .sidebar-content{max-height:calc(100% - 50px);posi
 .sidebar-slim .navigation .sidebar ul.side-menu>li>a i:first-child{margin-right:0}
 .navigation .sidebar ul.side-menu li{position:relative}
 .navigation .sidebar ul.side-menu li ul{list-style-type:none;padding-left:0;display:none;height:0;overflow:hidden;transition:max-height 1s;-webkit-transition:max-height 1s}
-.navigation .sidebar ul.side-menu li ul li.active>a,.navigation .sidebar ul.side-menu li ul li.active>a:hover{color:#fff;background-color:#232323;text-decoration:none;box-shadow:0 -1px 0 0 #212121 inset,0 1px 0 0 #212121 inset;box-shadow:3px 0 0 0 #2c97de inset,0 -1px 0 0 #1A1A1A inset,0 1px 0 0 transparent inset}
+.navigation .sidebar ul.side-menu li ul li.active>a,.navigation .sidebar ul.side-menu li ul li.active>a:hover{color:#fff;background-color:#232323;text-decoration:none;box-shadow:0 -1px 0 0 #212121 inset,0 1px 0 0 #212121 inset;box-shadow:3px 0 0 0 #00ce76 inset,0 -1px 0 0 #1A1A1A inset,0 1px 0 0 transparent inset}
 .navigation .sidebar ul.side-menu li ul li a{position:relative;display:block;color:#5C5C5C;padding:15px 25px 15px 0}
 .navigation .sidebar ul.side-menu li ul li a .nav-label{font-size:10px;text-transform:uppercase;font-weight:bolder;letter-spacing:1px}
 .navigation .sidebar ul.side-menu li ul li a:hover{color:#fff;background-color:#232323;text-decoration:none;box-shadow:0 -1px 0 0 #1A1A1A inset,0 1px 0 0 transparent inset}
 .navigation .sidebar ul.side-menu li ul li a:active,.navigation .sidebar ul.side-menu li ul li a:focus{text-decoration:none}
-.navigation .sidebar ul.side-menu li ul li.nested-active:not(.expanded)>a{color:#fff;background-color:#232323;text-decoration:none;box-shadow:0 -1px 0 0 #212121 inset,0 1px 0 0 #212121 inset;box-shadow:3px 0 0 0 #2c97de inset,0 -1px 0 0 #1A1A1A inset,0 1px 0 0 transparent inset}
+.navigation .sidebar ul.side-menu li ul li.nested-active:not(.expanded)>a{color:#fff;background-color:#232323;text-decoration:none;box-shadow:0 -1px 0 0 #212121 inset,0 1px 0 0 #212121 inset;box-shadow:3px 0 0 0 #00ce76 inset,0 -1px 0 0 #1A1A1A inset,0 1px 0 0 transparent inset}
 .navigation .sidebar ul.side-menu li ul.velocity-animating{display:block}
 .navigation .sidebar ul.side-menu li.expanded>ul{display:block;height:auto}
 .navigation .sidebar ul.side-menu li>a>.arrow{position:absolute;right:25px;top:50%;-webkit-transform:translateY(-50%);transform:translateY(-50%)}
@@ -2696,7 +2696,7 @@ body.sidebar-overlay .sidebar .sidebar-content{max-height:calc(100% - 50px);posi
 .navigation .sidebar ul.side-menu li.expanded>a>.arrow:before{content:"\f107"}
 .rtl .navigation .sidebar ul.side-menu li>a>.arrow{right:auto;left:13px}
 .rtl .navigation .sidebar ul.side-menu li ul li a{padding:15px 0 15px 25px;text-align:right}
-.rtl .navigation .sidebar ul.side-menu li ul li.active>a,.rtl .navigation .sidebar ul.side-menu li ul li.active>a:hover,.rtl .navigation .sidebar ul.side-menu li ul li.nested-active:not(.expanded)>a{color:#fff;background-color:#232323;text-decoration:none;box-shadow:0 -1px 0 0 #212121 inset,0 1px 0 0 #212121 inset;box-shadow:-3px 0 0 0 #2c97de inset,0 -1px 0 0 #212121 inset,0 1px 0 0 #212121 inset}
+.rtl .navigation .sidebar ul.side-menu li ul li.active>a,.rtl .navigation .sidebar ul.side-menu li ul li.active>a:hover,.rtl .navigation .sidebar ul.side-menu li ul li.nested-active:not(.expanded)>a{color:#fff;background-color:#232323;text-decoration:none;box-shadow:0 -1px 0 0 #212121 inset,0 1px 0 0 #212121 inset;box-shadow:-3px 0 0 0 #00ce76 inset,0 -1px 0 0 #212121 inset,0 1px 0 0 #212121 inset}
 body:not(.rtl) .navigation .sidebar ul.side-menu>li ul.submenu-level-1>li>a{padding-left:59px}
 body:not(.rtl) .navigation .sidebar ul.side-menu>li ul.submenu-level-2>li>a,body:not(.rtl) .navigation .sidebar ul.side-menu>li ul.submenu-level-3>li>a{padding-left:70px}
 body.rtl .navigation .sidebar ul.side-menu>li ul.submenu-level-1>li>a{padding-right:50px}
