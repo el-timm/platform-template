@@ -11,7 +11,7 @@ For building the project, we rely on:
 ## Project Notes
 
 The template is built to include all of the JavaScript dependencies required by the SPIN template.  Many of these libraries
-are for demonstration purposes, and likely are not necessary for your deployment.  You'll want to augment the JS included into your project accordingly
+are for demonstration purposes, and likely are not necessary for your deployment.  You'll want to augment the JS included into your project accordingly.  (See bower.json)
 
 
 ## Host Configuration
@@ -31,15 +31,6 @@ The Vagrantfile and provisioning scripts (.provision/*.sh) really does everythin
 vagrant up
 ```
 
-Gulp needs some packages installed by the non privileged user.  Due to some quirks, you'll need to run the install command twice
-```bash
-vagrant ssh
-cd /vagrant
-npm install -g --save-dev gulp
-npm install -g --save-dev gulp-load-plugins browser-sync main-bower-files run-sequence del
-npm update
-```
-
 To get the code built deployed locally in the VM.  You'll want to run this all the time as part of your dev/CI processes
 
 ```bash
@@ -50,5 +41,5 @@ gulp build
 ```
 
 Access the local project website at:  
-http://192.168.33.10
+http://platform.local.com/
 
