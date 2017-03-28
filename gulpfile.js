@@ -86,7 +86,7 @@ gulp.task("serve:assets", function() {
 gulp.task("dashboard:sass", function () {
     return gulp.src("src/assets/scss/app/app.scss")
         .pipe($.sass({
-            includePaths: ["bower_components/bootstrap-sass/assets/stylesheets"]
+            includePaths: [".build/bower_components/bootstrap-sass/assets/stylesheets"]
         }))
         .pipe($.autoprefixer("last 1 version", { cascade: true }))
         .pipe(gulp.dest("serve/assets/stylesheets/"))
@@ -95,7 +95,7 @@ gulp.task("dashboard:sass", function () {
 gulp.task("custom-bootstrap:sass", function () {
     return gulp.src("src/assets/scss/bootstrap/bootstrap.scss")
         .pipe($.sass({
-            includePaths: ["bower_components/bootstrap-sass/assets/stylesheets"]
+            includePaths: [".build/bower_components/bootstrap-sass/assets/stylesheets"]
         }))
         .pipe($.autoprefixer("last 1 version", { cascade: true }))
         .pipe(gulp.dest("serve/assets/stylesheets/"))
@@ -105,8 +105,8 @@ gulp.task("plugins:sass", function() {
     return gulp.src("src/assets/scss/plugins/plugins.scss")
     .pipe($.sass({
         includePaths: [
-            "bower_components/bootstrap-sass/assets/stylesheets",
-            "bower_components/"
+            ".build/bower_components/bootstrap-sass/assets/stylesheets",
+            ".build/bower_components/"
         ]
     }))
     .pipe($.autoprefixer("last 1 version", { cascade: true }))

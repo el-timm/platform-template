@@ -42,6 +42,9 @@
           "switchery"
       ]
   },
+  "install": {
+    "path": ".build/bower_components/"
+  },
   "description": "Neustar Template based on Bootstrap and the SPIN Template provided by webkom.co",
   "main": "index.html",
   "authors": [
