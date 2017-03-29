@@ -24,11 +24,7 @@
     "datatables.net-bs": "~1.10.12",
     "toastr": "~2.1.2",
     "fullcalendar": "~2.9.0",
-    "jquery-ui-draggable": "*",
-
-    "highcharts": "*",
-    "jquery.sparkline": "*"
-
+    "jquery-ui-draggable": "*"
   },
   "group": {
       "lib": [
