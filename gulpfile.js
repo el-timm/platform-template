@@ -241,6 +241,7 @@ gulp.task('build', function(cb) {
         'serve:clean',
         'dist:clean',
         ['serve:html', 'bower', 'styles', 'serve:assets'],
+        'bower',
         'html',
         'dist:assets',
      cb);
