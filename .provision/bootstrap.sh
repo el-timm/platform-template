@@ -15,15 +15,10 @@ sudo apt-get -y install nginx
 sudo service nginx start
 
 # set up nginx server
-sudo cp /vagrant/.provision/nginx/nginx.conf /etc/nginx/sites-available/site.conf
-sudo chmod 644 /etc/nginx/sites-available/site.conf
-sudo ln -s /etc/nginx/sites-available/site.conf /etc/nginx/sites-enabled/site.conf
+sudo cp /vagrant/.provision/nginx/nginx.conf /etc/nginx/sites-available/nginx.conf
+sudo chmod 644 /etc/nginx/sites-available/nginx.conf
+sudo ln -s /etc/nginx/sites-available/nginx.conf /etc/nginx/sites-enabled/nginx.conf
+sudo rm /etc/nginx/sites-enabled/default
 sudo service nginx restart
-
-# clean /var/www
-sudo rm -Rf /var/www
-
-# symlink /var/www => /vagrant/serve
-ln -s /vagrant/serve /var/www
 
 updatedb
